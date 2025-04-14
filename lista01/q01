@@ -1,1 +1,24 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+
+	var n1, n2, n3, Med float64
+
+	fmt.Scanf("%f %f %f", &n1, &n2, &n3)
+
+	Med = (n1 + n2 + n3) / 3
+
+	if Med >= 6 {
+		fmt.Printf("MEDIA = %.2f\nAPROVADO", Med)
+	} else {
+
+		fmt.Printf("MEDIA = %.2f\nREPROVADO", Med)
+
+	}
+
+}
 
