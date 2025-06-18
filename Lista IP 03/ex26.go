@@ -22,5 +22,5 @@ func main() {
 		soma = soma + cima/produto
 
 	}
-	f.Print("\n soma final %f\n", soma)
+	f.Printf("\n soma final %f\n", soma)
 }
